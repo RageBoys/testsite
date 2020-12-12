@@ -1,0 +1,87 @@
+main {
+    margin: 5vh;
+}
+
+h1.title {
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 5vh;
+}
+
+form {
+    color: white;
+    display: flex;
+}
+
+form .left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form .right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form input {
+    background-color: #26262c;
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 40vh;
+    height: 5vh;
+    font-size: 20px;
+    outline: none;
+    color: white;
+    padding: 10px;
+}
+
+form input::-webkit-input-placeholder {
+    color: rgb(177, 177, 177);
+    font-size: 20px;
+}
+
+form input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+form textarea {
+    resize: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 40vh;
+    background-color: #26262c;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+form textarea::-webkit-input-placeholder {
+    color: rgb(177, 177, 177);
+    font-size: 20px;
+}
+
+form p.input {
+    font-size: 26px;
+    margin-bottom: 2vh;
+}
+
+form .desc {
+    margin-top: 10vh;
+}
+
+form .folder {
+    margin-top: 10vh;
+}
+
+form .break {
+    border-left: 1px solid white;
+}
+
+form .thumbnail input, form .folder input {
+    cursor: pointer;
+}

@@ -1,0 +1,187 @@
+ #charactersList {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr));
+    grid-gap: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+#charactersList .character {
+    list-style-type: none;
+    background-color: #26262c;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: left;
+    color: white;
+    height: 13vh;
+    width: 40vh;
+}
+
+#charactersList .character p {
+    margin-top: 1vh;
+}
+
+#charactersList .character .name {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+#charactersList .character .by {
+    font-weight: normal;
+    font-size: 18px;
+    float: right;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+#searchWrapper #searchBar {
+    width: 100%;
+    outline: none;
+    height: 3vh;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: 1px solid white;
+    padding: 1vh;
+    padding-left: 2vh;
+    font-size: 25px;
+    margin-bottom: 5vh;
+    background-color: #26262c;
+    color: white;
+}
+
+#searchWrapper #searchBar::-webkit-input-placeholder {
+    font-size: 25px;
+}
+
+#searchWrapper {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 50px;
+}
+
+main #searchWrapper #button {
+    height: 5.25vh;
+    width: 7vh;
+    padding: 10px;
+    background-color: #3a3a3a;
+    color: white;
+    font-size: 14px;
+    border: 1px solid white;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-right: 15px;
+    transition: 0.3s all;
+    outline: none;
+}
+
+#searchWrapper #button:hover {
+    background-color: black;
+}
+
+.fa-download {
+    margin-left: 10px;
+}
+
+#searchWrapper .page-select {
+    display: flex;
+    position: absolute;
+    width: fit-content;
+    left: 5vh;
+}
+
+#searchWrapper .page-select button {
+    height: 5vh;
+    width: 8vh;
+    margin: 0px 20px 0px 20px;
+    background-color: #26262c;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s all;
+    outline: none;
+}
+
+#searchWrapper .page-select button:hover {
+    background-color: #363636;
+}
+
+#searchWrapper .upload-btn .upload {
+    height: 5vh;
+    width: 12vh;
+    margin: 0px 20px 0px 20px;
+    background-color: #26262c;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s all;
+    outline: none;
+    position: absolute;
+}
+
+#searchWrapper .upload-btn .upload a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#searchWrapper .upload-btn .upload:hover {
+    background-color: #363636;
+}
+
+#searchWrapper .upload-btn {
+    position: absolute;
+    right: 30vh;
+}
+
+#searchWrapper .page-select p.pageNum {
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.page-select-bottom p.pageNumBottom {
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.no-content {
+    color: white;
+}
+
+.page-select-bottom {
+    display: flex;
+    width: fit-content;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-select-bottom .page-down, .page-select-bottom .page-up {
+    height: 5vh;
+    width: 8vh;
+    margin: 0px 20px 0px 20px;
+    background-color: #26262c;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s all;
+    outline: none;
+}
+
+.page-select-bottom button:hover {
+    background-color: #363636;
+}
