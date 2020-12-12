@@ -1,0 +1,527 @@
+/*     laptop large / 1440px     */
+
+@media screen and (max-width: 2000px) {
+    .nav-bar li a {
+        font-size: 15px;
+    }
+
+    .nav-bar .left .logo {
+        font-size: 20px;
+        margin-top: 9.77px;
+    }
+
+    .heading-box .text p {
+        font-size: 18px;
+    }
+
+    #searchWrapper #searchBar {
+        height: 19.54px;
+        width: 341.95px;
+    }
+
+    #searchWrapper button#button {
+        height: 41.034000000000006px;
+        width: 48.85px;
+        font-size: 12px;
+    }
+
+    #searchWrapper .upload-btn button {
+        width: 97.7px;
+        height: 41.034000000000006px;
+        font-size: 12px;
+    }
+
+    #searchWrapper .page-select button {
+        width: 58.62px;
+        height: 41.034000000000006px;
+        font-size: 12px;
+    }
+
+    #searchWrapper .page-select p {
+        font-size: 16px;
+    }
+
+    .page-select-bottom .page-down, .page-select-bottom .page-up {
+        width: 58.62px;
+        height: 41.034000000000006px;
+        font-size: 12px;
+    }
+
+    .page-select-bottom .pageNumBottom {
+        font-size: 16px;
+    }
+
+    #charactersList .character {
+        width: 439.65px;
+    }
+    
+    #charactersList .character .name {
+        font-size: 25px;
+    }
+    
+    #charactersList .character .by {
+        font-size: 18px;
+    }
+
+    main #searchWrapper #buttonSmall {
+        display: none;
+    }
+}
+
+/*     laptop / 1024px     */
+
+@media screen and (max-width: 1300px) {
+    #charactersList .character {
+        width: 390.8px;
+    }
+
+    #searchWrapper button#button {
+        width: 97.7px;
+    }
+
+    main #searchWrapper #buttonSmall {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    #charactersList .character {
+        width: 293.1px;
+    }
+
+    #charactersList .character .name {
+        font-size: 22px;
+    }
+
+    #charactersList .character .by {
+        font-size: 18px;
+    }
+
+    #charactersList .character .desc {
+        font-size: 16px;
+    }
+
+    #searchWrapper .upload-btn button {
+        left: 97.7px;
+    }
+
+    main #searchWrapper #buttonSmall {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #charactersList .character {
+        width: 683.9px;
+    }
+
+    #charactersList .character .name {
+        font-size: 24px;
+    }
+
+    #charactersList .character .by {
+        font-size: 20px;
+    }
+
+    #charactersList .character .desc {
+        font-size: 18px;
+    }
+
+    .heading-box .video {
+        width: 898.84px;
+        margin-left: -39.08px;
+    }
+
+    .heading-box .text {
+        position: absolute;
+        width: 830.45px;
+        height: 390.8px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 0px;
+        margin-left: -9.77px;
+        margin-top: 1px;
+    }
+
+    main #searchWrapper {
+        margin-top: 537.35px;
+    }
+
+    #searchWrapper .upload-btn button {
+        left: 48.85px;
+    }
+
+    #searchWrapper .page-select {
+        position: absolute;
+        left: 0vh;
+    }
+
+    main #searchWrapper #buttonSmall {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1003px) {
+    #charactersList .character {
+        width: 586.2px;
+    }
+
+    .heading-box .video {
+        width: 801.14px;
+        margin-left: -9.77px;
+    }
+
+    .heading-box .text {
+        width: 748.85px;
+        margin-left: 19.54px;
+    }
+
+    main #searchWrapper #buttonSmall {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    main #charactersList .character {
+        width: 348.85px;
+    }
+
+    main #charactersList .character .name {
+        font-size: 18px;
+    }
+
+    main #charactersList .character .by {
+        font-size: 16px;
+    }
+
+    main #charactersList .character .desc {
+        font-size: 14px;
+    }
+    
+    .heading-box .video {
+        width: 719.54px;
+        margin-left: 9.77px;
+    }
+
+    .heading-box .text {
+        width: 648.85px;
+        margin-left: 39.08px;
+    }
+
+    main #searchWrapper .page-select {
+        left: 9.77px;
+    }
+
+    main #searchWrapper .upload-btn {
+        left: 674.13px;
+    }
+
+    main #searchWrapper #searchBar {
+        width: 1954px;
+    }
+
+    main #searchWrapper #searchBar::-webkit-input-placeholder {
+        font-size: 20px;
+    }
+
+    main #searchWrapper #buttonSmall {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 846px) {
+    main #charactersList .character {
+        width: 683.9px;
+    }
+
+    main #searchWrapper #searchBar {
+        width: 195.4px;
+        font-size: 18px;
+        height: 9.77px;
+    }
+
+    main #searchWrapper #searchBar::-webkit-input-placeholder {
+        font-size: 18px;
+    }
+
+    main #searchWrapper .upload-btn {
+        left: 576.43px;
+    }
+
+    main #searchWrapper .upload-btn .upload {
+        width: 97.7px;
+        height: 29.31px;
+    }
+
+    main #searchWrapper .upload-btn .upload a {
+        font-size: 10px;
+    }
+
+    main #searchWrapper .page-select button {
+        width: 39.08px;
+        height: 29.31px;
+    }
+
+    main #searchWrapper .page-select p.pageNum {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    main .page-select-bottom .page-up, main .page-select-bottom .page-down {
+        width: 39.08px;
+        height: 29.31px;
+    }
+
+    main .page-select-bottom p.pageNumBottom {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    main #searchWrapper #button {
+        display: none;
+    }
+
+    main #searchWrapper #buttonSmall {
+        display: block;
+        height: 3.248.85px;
+        width: 195.4px;
+        border: 1px solid white;
+        background-color: #3a3a3a;
+        color: white;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        font-size: 12px;
+        padding-right: 10px;
+        padding-left: 10px;
+        cursor: pointer;
+        transition: 0.3s all;
+    }
+
+    main #searchWrapper #buttonSmall:hover {
+        background-color: black;
+    }
+
+    main .heading-box .video {
+        margin-left: -39.08px;
+        width: 748.85px;
+    }
+
+    main .heading-box .text {
+        margin-left: -19.54px;
+        width: 683.9px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    main .heading-box .video {
+        width: 683.9px;
+        margin-left: -29.31px;
+    }
+
+    main .heading-box .text {
+        width: 658.62px;
+        margin-left: -9.77px;
+    }
+
+    main #charactersList .character {
+        width: 586.2px;
+    }
+
+    main #searchWrapper .upload-btn {
+        left: 488.5px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    main .heading-box .video {
+        width: 586.2px;
+        margin-left: 0.48.85px;
+    }
+
+    main .heading-box .text {
+        width: 558.62px;
+        margin-left: 19.54px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    main .heading-box .video {
+        width: 519.54px;
+    }
+
+    main .heading-box .text {
+        width: 468.96px;
+    }
+
+    main #charactersList .character {
+        width: 488.5px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .nav-bar .left svg {
+        margin-left: 19.54px;
+    }
+
+    .heading-box .video {
+        width: 468.96px;
+        height: 293.1px;
+        margin-left: -39.08px;
+    }
+
+    .heading-box .text {
+        width: 439.65px;
+        height: 488.5px;
+        margin-left: -29.31px;
+    }
+
+    main #searchWrapper {
+        margin-top: 390.8px;
+    }
+
+    main #searchWrapper .upload-btn {
+        left: 439.65px;
+    }
+
+    #searchWrapper .page-select button {
+        width: 39.08px;
+        height: 29.31px;
+    }
+
+    #searchWrapper .page-select p {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    #searchWrapper #searchBar {
+        width: 97.7px;
+        height: 9.77px;
+        font-size: 14px;
+    }
+    
+    #searchWrapper #searchBar::-webkit-input-placeholder {
+        font-size: 12px;
+    }
+
+    #searchWrapper button#button {
+        height: 3.248.85px;
+    }
+
+    #searchWrapper .upload-btn button {
+        width: 78.16px;
+        height: 29.31px;
+    }
+
+    #searchWrapper .upload-btn button a {
+        font-size: 14px;
+    }
+
+    #charactersList .character {
+        width: 390.8px;
+    }
+
+    #charactersList .character .name i {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    main #searchWrapper .upload-btn {
+        left: 419.54px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    main .heading-box .video {
+        width: 578.16px;
+        margin-left: -48.85px;
+    }
+
+    main .heading-box .text {
+        width: 539.08px;
+        margin-left: -29.31px;
+        margin-top: -1px;
+    }
+
+    main #searchWrapper .page-select {
+        width: 248.85px;
+        position: absolute;
+        top: 948.85px;
+        padding-top: 48.85px;
+        left: 19.54px;
+    }
+
+    main #searchWrapper .page-select p.pageNum {
+        font-size: 10px;
+        height: 390.8px;
+    }
+
+    main #searchWrapper .page-select button {
+        width: 48.85px;
+    }
+
+    main #searchWrapper .upload-btn {
+        left: 390.8px;
+        position: absolute;
+        top: 948.85px;
+        padding-top: 48.85px;
+    }
+
+    main #charactersList .character {
+        width: 488.5px;
+    }
+
+    main #charactersList {
+        margin-left: 2px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    main .heading-box .video {
+        width: 439.65px;
+        margin-left: -29.31px;
+    }
+
+    main .heading-box .text {
+        width: 390.8px;
+        margin-left: -9.77px;
+    }
+
+    main #searchWrapper .upload-btn {
+        left: 293.1px;
+    }
+
+    main #searchWrapper #searchBar {
+        position: absolute;
+        left: 119.54px;
+    }
+
+    main #searchWrapper #buttonSmall {
+        position: absolute;
+        left: 348.85px;
+        width: 48.85px;
+        height: 3.19.54px;
+    }
+
+    main #searchWrapper {
+        padding-bottom: 97.7px;
+    }
+
+    main #charactersList .character {
+        width: 390.8px;
+        margin-left: 19.54px;
+    }
+
+    header .nav-bar .right li a {
+        font-size: 10px;
+    }
+
+    header .nav-bar .left h1.logo {
+        font-size: 14px;
+    }
+
+    header .nav-bar .left svg {
+        width: 15px;
+        height: 15px;
+        margin-top: 2px;
+    }
+}
